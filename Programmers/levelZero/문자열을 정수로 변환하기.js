@@ -3,9 +3,11 @@
 // solution 함수를 완성해주세요.
 
 const solution = (n_str) => {
-
+    return Number(n_str);
 };
 
-const n_str = "10";
+const n_str1 = "10";
+const n_str2 = "8542";
 
-console.log(solution(n_str));
+console.log(solution(n_str1));
+console.log(solution(n_str2));
